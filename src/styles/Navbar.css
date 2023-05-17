@@ -1,0 +1,53 @@
+.navbar {
+    padding: 15px 30px;
+    width: 100%;
+}
+
+.navbar__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar__left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar__dashboard span:first-child {
+    opacity: 0.8;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.navbar__searchbox {
+    background-color: rgb(245, 252, 255);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 40px;
+}
+
+.navbar__right input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+}
+.navbar__right input::placeholder {
+    opacity: 0.3;
+}
+
+.navbar__signin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
