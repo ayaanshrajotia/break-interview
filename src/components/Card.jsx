@@ -6,7 +6,7 @@ import { ImEarth } from "react-icons/im";
 // import CSS
 import "../styles/Card.css";
 
-const Card = ({ title, data, percent, date, type }) => {
+const Card = ({ title, data, percent, date, type, color1, color2 }) => {
     return (
         <div className="card">
             <div className="card__content">
@@ -14,7 +14,12 @@ const Card = ({ title, data, percent, date, type }) => {
                     <span>{title}</span>
                     <h2>{data}</h2>
                 </div>
-                <div className="card__content--right">
+                <div
+                    className="card__content--right"
+                    style={{
+                        background: `linear-gradient(to right, ${color1}, ${color2})`,
+                    }}
+                >
                     <ImEarth fontSize={20} color="#ffffff" />
                 </div>
             </div>

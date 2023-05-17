@@ -53,6 +53,7 @@ const Sidebar = () => {
                     </li>
                 </ul>
             </div>
+            <img src="/images/folder.png" alt="" />
         </div>
     );
 };

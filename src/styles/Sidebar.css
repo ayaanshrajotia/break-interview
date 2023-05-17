@@ -6,6 +6,7 @@
     padding: 20px 10px;
     margin: 10px 0px 20px 20px;
     overflow: hidden;
+    position: relative;
 }
 
 .sidebar h3 {
@@ -53,4 +54,12 @@ h4 {
     opacity: 0.2;
     width: 90%;
     margin: 20px auto;
+}
+
+.sidebar img {
+    width: 80px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

@@ -58,6 +58,8 @@ const Home = () => {
                             percent={"55"}
                             date={"since yesterday"}
                             icon={"ImEarth"}
+                            color1={"rgb(78, 181, 255)"}
+                            color2={"rgb(0, 136, 233)"}
                         />
                         <Card
                             title={"TODAY'S USER"}
@@ -65,6 +67,8 @@ const Home = () => {
                             type={"profit"}
                             percent={"3"}
                             date={"since last week"}
+                            color1={"rgb(255, 54, 54)"}
+                            color2={"rgb(234, 6, 6)"}
                         />
                         <Card
                             title={"NEW CLIENTS"}
@@ -72,6 +76,8 @@ const Home = () => {
                             type={"loss"}
                             percent={"2"}
                             date={"since last quarter"}
+                            color1={"rgb(47, 213, 146)"}
+                            color2={"rgb(5, 181, 110)"}
                         />
                         <Card
                             title={"SALES"}
@@ -79,6 +85,8 @@ const Home = () => {
                             type={"profit"}
                             percent={"5"}
                             date={"than last month"}
+                            color1={"rgb(240, 166, 63)"}
+                            color2={"rgb(218, 129, 3)"}
                         />
                     </section>
                     <section className="home__main__graphs">
